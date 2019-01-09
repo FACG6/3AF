@@ -3,16 +3,101 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body{
-	font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
 
 }
 h1 ,h2 , h3,h4,h5,h6{
-	font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+.contact_us{
+    height: auto;
+    width: 100%;
+    color: black;
+}
+.contact_us .container{
+  padding: 7% 15%;
+  margin-left: 20%;
 
 }
 
+.contact_us .container #fullName,#email{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+}
+
+.contact_us .container .message{
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+.buttonHolder{
+  text-align: center;
+}
+
+.submitstyle{
+height: 45px;
+background: #0982b5;
+cursor: pointer;
+color: #fff;
+
+border: 1px solid #eee;
+
+border-radius: 20px;
+
+/* box-shadow: 5px 5px 5px #eee; */
+width: 35%;
+
+}
+.title_contact_us{
+  margin: 0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+}
+
+.submit_center{
+  text-align: center;
+}
+
+.contact_us .container #send_btn{
+  padding: 10px 40px;
+  margin: 50px 0;
+  cursor: pointer;
+  background-color: #313131;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.contact_us .container #send_btn:hover{
+  cursor: pointer;
+  background-color: #212121;
+
+}
+
+
+.submitstyle:hover {
+background: #016ABC;
+
+color: #000;
+
+border: 1px solid #eee;
+
+border-radius: 20px;
+
+box-shadow: 5px 5px 5px #eee;
+padding: 0;
+margin: 0;
+}
+
+
+.flex-contanier{
+  /* display: flex; */
+ /* flex-wrap: nowrap; */
+ overflow-x: hidden important!;
+}
 
 
 .content{
@@ -322,7 +407,9 @@ h1 ,h2 , h3,h4,h5,h6{
 /* end team section */
 
 
-
+.contact_us h2{
+  margin-left: 27%;
+}
 
 .welcome h1{
 
@@ -476,4 +563,16 @@ font-style: italic;
 	}
 
 
+}
+@media (max-width:767px){
+    .section3 .name-div{
+    padding: 0 20px;
+}
+
+.section3 .email-div{
+    padding: 0 20px;
+}
+    .section3 .message{
+    padding: 0 20px;
+}
 }
