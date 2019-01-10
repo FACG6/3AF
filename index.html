@@ -15,26 +15,39 @@
 
     <div class="flex-contanier">
         <div class="sidebar">
-            <img src="img/rawpixel-653764-unsplash.jpg" class="sidebar-image">
+            <img src="img/rawpixel-653764-unsplash.jpg" alt="rawpixel" class="sidebar-image">
             <h1>3AF</h1>
             <p class="sidebar-p"><span> Web </span>Developers</p>
 
-            <!-- <div class="sidebar-list-lg-screen">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Team</a>
-                <a href="#">Contact</a>
-              </div> -->
+
             <ul class="sidebar-list-sm-screen">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#teamsection">Team</a></li>
+                <li><a href="#contactussection">Contact</a></li>
             </ul>
 
             <p class="sidebar-footer-p">&copy; Copyright &copy; 2019 All Reserved | <i class="fa fa-heart" aria-hidden="true"></i></p>
 
         </div>
+        <!-- start  add last class -->
+        <div class="sidebar-on-sm-screen">
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="index.html">3AF</a> </button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#teamsection">Team</a></li>
+                        <li><a href="#contactussection">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- end  add last class -->
+
 
         <div class="content">
             <div id="home" class="slider">
@@ -55,7 +68,7 @@
             <div id="about" class="aboutus">
                 <h2>
                     <span class="h2border">
-                        <span id="h2about"> About</span> US </span> </h2>
+                        <span class="htowabout"> About</span> US </span> </h2>
                 <br>
 
                 <p id="Paboutus"> Welcome ,We are <span id="Trible_AF"> 3A-F team</span> , We are an integrated
@@ -63,98 +76,99 @@
 
                     We are always aiming to meet our clients expectations excellently and with high quality .
 
-                    We guarantee you a perfect website with huge number of visitor . <span id="success"> Success of your
+                    We guarantee you a perfect website with huge number of visitor . <span id="success"> Success of
+                        your
                         site is ours . </span></p>
             </div>
 
             <!-- section team -->
 
-            <div class="team_section">
+            <div class="team_section" id="teamsection">
                 <h2 class="ourteam">
                     <span class="h2border">
                         Our
-                        <span id="h2about"> Team</span> </span> </h2>
+                        <span class="htowabout"> Team</span> </span> </h2>
                 <br>
 
 
                 <div class="card_up">
                     <div class="card up">
-                        <img src="img/I.jpg" class="image_card">
+                        <img src="img/I.jpg" alt="Ahmed" class="image_card">
                         <p class="name_person">Eng: Ahmed Elalmi</p>
                         <p class="discription">System Analysis</p>
                         <ul>
-                            <li><a href="https://plus.google.com/u/1/114755102297184617277"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="https://github.com/AhmedAl-Almi"><i class="fab fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/ahmed-el-almi-b16916117/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://plus.google.com/u/1/114755102297184617277" name="plus" aria-hidden="true"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="https://github.com/AhmedAl-Almi" name="git" aria-hidden="true"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/ahmed-el-almi-b16916117/" name="linkedin" aria-hidden="true"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                     <div class="card up">
-                        <img src="img/42516544_2142394079128542_4869724642798993408_n.jpg" class="image_card">
+                        <img src="img/42516544_2142394079128542_4869724642798993408_n.jpg" alt="42516544" class="image_card">
                         <p class="name_person">Eng: Anies Al Rayyes</p>
                         <p class="discription">Web design</p>
                         <ul>
-                            <li><a href="https://plus.google.com/u/0/+ABCDp"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="https://github.com/Anies12"><i class="fab fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/anies-rayyes-889626162/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://plus.google.com/u/0/+ABCDp" name="plus" aria-hidden="true"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="https://github.com/Anies12" name="git" aria-hidden="true"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/anies-rayyes-889626162/" name="linkedin" aria-hidden="true"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="card_bottom">
                     <div class="card">
-                        <img src="img/fatma.jpg" class="image_card">
+                        <img src="img/fatma.jpg" alt="fatma" class="image_card">
                         <p class="name_person">Dev: Fatma Siam</p>
                         <p class="discription">Front end developer</p>
                         <ul>
-                            <li><a href="https://plus.google.com/u/0/109716683959386589791"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="https://github.com/Fatmasiam"><i class="fab fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/fatma-siam-725925155/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://plus.google.com/u/0/109716683959386589791" name="plus" aria-hidden="true"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="https://github.com/Fatmasiam" name="git" aria-hidden="true"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/fatma-siam-725925155/" name="linkedin" aria-hidden="true"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                     <div class="card">
-                        <img src="img/Screenshot from 2019-01-08 16-26-30.png" class="image_card">
+                        <img src="img/Screenshot from 2019-01-08 16-26-30.png" alt="angham" class="image_card">
                         <p class="name_person">Dev: Angham Aabed</p>
                         <p class="discription_person">Back end developer</p>
                         <ul>
-                            <li><a href="https://plus.google.com/108953196996944698541"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="https://github.com/Angham116"><i class="fab fa-github"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/angham-aabed"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://plus.google.com/108953196996944698541" name="plus" aria-hidden="true"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="https://github.com/Angham116" name="git" aria-hidden="true"><i class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/angham-aabed" name="linkedin" aria-hidden="true"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
-        </div>
-    </div>
-    <!-- anies -->
-    <div class="contact_us">
-            <h2>
-                    <span class="h2border">
-                        <span id="h2about"> Contact</span> US </span> </h2>
-                <br>
-
-        <div class="container">
-               
-
-            <label>Full Name :</label>
-            <br>
-            <br>
-            <input type="text" placeholder="enter your name" id="fullName">
-            <br>
-            <br>
-            <label>Email :</label>
-            <br>
-            <br>
-            <input type="text" placeholder="enter your email" id="email">
-            <br>
-            <br>
-            <label>Message :</label>
-            <br>
-            <br>
-            <textarea class="message"></textarea>
-            <div class="submit_center">
-                <input type="submit" value="Submit" id="send_btn">
             </div>
         </div>
-    </div>
+        <!-- anies -->
+        <div class="contact_us">
+            <h2>
+                <span class="h2border">
+                    <span class="htowabout"> Contact</span> US </span> </h2>
+            <br>
+
+            <div class="container" id="contactussection">
+
+
+                <label for="fullName">Full Name :</label>
+                <br>
+                <br>
+                <input type="text" placeholder="enter your name" id="fullName">
+                <br>
+                <br>
+                <label for="email">Email :</label>
+                <br>
+                <br>
+                <input type="text" placeholder="enter your email" id="email">
+                <br>
+                <br>
+                <label for="msg">Message :</label>
+                <br>
+                <br>
+                <textarea class="message" id="msg"></textarea>
+                <div class="submit_center">
+                    <input type="submit" value="Submit" id="send_btn">
+                </div>
+            </div>
+        </div>
 
 
 </body>
