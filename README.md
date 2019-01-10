@@ -36,12 +36,19 @@ Site configuration:- The site consists of four sections .
 .
 ### HOW ?
  > Firstly we discussion how to build site .
+ 
  > We were try drawing out rough sketches of our site first.
+ 
  > Then agree us on a design to work towards throughout the project.
+ 
  > Creating new repo name "3AF".
+ 
  > Adding issues to our github repo.
+ 
  > We decide to use and stick to a particular naming convention for your css.
+ 
  > We were encounter merge conflicts when working together on the same files but solve our the proplem .
+ 
  > We were check our site is any client to accessibl.
 
 
